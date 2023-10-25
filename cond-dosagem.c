@@ -22,22 +22,34 @@ int main(void) {
     if (idade >= 12 && peso >= 60) {
         dosagem = 1000 / 25;
         printf("\nBOLETIM\n\nIDADE: %d\nPESO: %.2f\nDOSAGEM: 1000mg = 40 gotas\n", idade, peso);
-    } else if (idade >= 12 && peso < 60) {
+    } 
+
+    else if (idade >= 12 && peso < 60) {
         dosagem = 875 / 25;
         printf("\nBOLETIM\n\nIDADE: %d\nPESO: %.2f\nDOSAGEM: 875mg = 35 gotas\n", idade, peso);
-    } else if (idade < 12 && peso > 30) {
+    } 
+
+    else if (idade < 12 && peso > 30) {
         dosagem = 750 / 25;
         printf("\nBOLETIM\n\nIDADE: %d\nPESO: %.2f\nDOSAGEM: 750mg = 30 gotas\n", idade, peso);
-    } else if (idade < 12 && (peso <= 30 && peso >= 24.1)) {
+    } 
+
+    else if (idade < 12 && (peso <= 30 && peso >= 24.1)) {
         dosagem = 500 / 25;
         printf("\nBOLETIM\n\nIDADE: %d\nPESO: %.2f\nDOSAGEM: 500mg = 20 gotas\n", idade, peso);
-    } else if (idade < 12 && (peso <= 24 && peso >= 16.1)) {
+    } 
+
+    else if (idade < 12 && (peso <= 24 && peso >= 16.1)) {
         dosagem = 375 / 25;
         printf("\nBOLETIM\n\nIDADE: %d\nPESO: %.2f\nDOSAGEM: 375mg = 15 gotas\n", idade, peso);
-    } else if (idade < 12 && (peso <= 16 && peso >= 9.1)) {
+    } 
+
+    else if (idade < 12 && (peso <= 16 && peso >= 9.1)) {
         dosagem = 250 / 25;
         printf("\nBOLETIM\n\nIDADE: %d\nPESO: %.2f\nDOSAGEM: 250mg = 10 gotas\n", idade, peso);
-    } else {
+    }
+    
+     else {
         dosagem = 125 / 25;
         printf("\nBOLETIM\n\nIDADE: %d\nPESO: %.2f\nDOSAGEM: 125mg = 5 gotas\n", idade, peso);
     }
